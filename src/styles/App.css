@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.share-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.facebook {
+    background-color: #1877f2;
+    color: #ffffff;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: #ffffff;
+}
+
+.linkedin {
+    background-color: #0077b5;
+    color: #ffffff;
+}
+
+.share-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
